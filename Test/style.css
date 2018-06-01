@@ -1,0 +1,716 @@
+.navbar{
+  padding: 15px 65px;
+  transition: .5s all;
+  background-color: #F3F3F3;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: rgba(0,0,0,.7);
+    font-family: 'Roboto Condensed', sans-serif;
+    letter-spacing: 1px;
+    padding:10px 15px;
+
+}
+.navbar-light .navbar-nav .nav-link:hover {
+    color: rgba(0,0,0,.3);
+    transition:  all .5s;
+}
+.bg-light {
+    background-color: #F3F3F3 ;
+}
+.logo{
+  margin:0;
+  display: inline-block;
+  font-size: 25px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  padding:0;
+
+}
+.ip{
+  margin:0;
+  color:rgb(72, 207, 0);
+  font-weight: 900;
+  font-size: 28px;
+  padding:0;
+}
+.landing{
+  display: flex;
+  padding-top: 100px;
+  justify-content: center;
+  width:100%;
+  height:auto;
+  margin:auto;
+  background-color: #F3F3F3;
+  font-family: 'Roboto', sans-serif;
+
+}
+.landing .landingImage{
+  margin: auto;
+  width: 40%;
+}
+.landing .landingImage img{
+  width:80%;
+  height:auto;
+}
+.landing .landingHeading{
+  margin: auto;
+  padding:100px 30px;
+  width: 50%;
+  justify-content: center;
+}
+.landing .landingHeading h1{
+  font-weight: 700;
+  font-size: 45px;
+  letter-spacing: 2px;
+}
+.landing .landingHeading p{
+  opacity:0.5;
+}
+.input{
+  display: flex;
+  margin:auto;
+  padding-top: 30px;
+}
+.input input{
+  margin:0;
+  border: none;
+  padding: 10px 20px;
+  background-color: #F9F9F9;
+
+}
+.input button{
+  margin:0;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.input button:hover, :focus{
+  outline: none;
+}
+
+.slider-content{
+  overflow: hidden;
+  width:2500px;
+  height:100px;
+  animation-name: example;
+  animation-duration: 10s;
+  animation-fill-mode: both;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease;
+  display: inline-block;
+}
+.items{
+  width:250px;
+  height:100px;
+  display: inline-block;
+  padding:25px 30px;
+}
+.slider{
+  overflow: hidden;
+  display: block;
+  width:auto;
+  height:100px;
+  background:#26B658;
+}
+.logo-img{
+  display: flex;
+  justify-content: center;
+  width: 80%;
+  height:auto;
+  opacity: .7;
+}
+/*heading starts here*/
+.heading{
+  margin: 150px auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  text-align: center;
+}
+.heading h1{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: 42px;
+  letter-spacing: 1px;
+}
+.heading p{
+  margin: auto;
+  width:60%;
+  opacity: .8;
+}
+.content{
+  width:100%;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+}
+.layer1{
+  width:30%;
+  flex-direction: column;
+}
+.layer1 i{
+  font-size: 65px;
+  color: #1eb858;
+  padding:10px;
+}
+.layer-content{
+  margin:50px auto;
+  text-align: center;
+}
+.layer1 h1{
+  font-size: 15px;
+  font-weight: bold;
+}
+.layer1 p{
+  font-size: 12px;
+  opacity: .7;
+}
+
+.layer-img{
+  width:40%;
+  padding:40px;
+  margin:auto;
+  justify-content: center;
+}
+.layer-img img{
+  margin:auto;
+  justify-content: center;
+  width:100%;
+  height:auto;
+}
+/*feature design starts here*/
+.feature-design{
+  margin:100px auto;
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+}
+.left{
+  width:50%;
+  text-align: right;
+}
+.left img{
+  width:100%;
+}
+.right{
+  margin:100px auto;
+  width:50%;
+  text-align: left;
+}
+.right h1{
+  width:40%;
+  font-size: 42px;
+  font-weight: bold;
+  font-family: 'Roboto', sans-serif;
+  margin-bottom: 30px;
+}
+.right p{
+  width:40%;
+  color:rgba(0, 0, 0, 0.55);
+  margin-bottom: 30px;
+
+}
+.right ul{
+  width:40%;
+  margin-left: 0;
+  padding-left: 13px;
+  color:rgba(0, 0, 0, 0.55);
+}
+.design1{
+  background-color: #F3F3F3;
+}
+.right1{
+  margin:100px auto;
+  width:50%;
+  text-align: left;
+}
+.right1 h1{
+  width:40%;
+  font-size: 42px;
+  font-weight: bold;
+  font-family: 'Roboto', sans-serif;
+  margin-bottom: 30px;
+  margin-left: auto;
+}
+.right1 p{
+  width:40%;
+  color:rgba(0, 0, 0, 0.55);
+  margin-bottom: 30px;
+  margin-left: auto;
+
+}
+.right1 ul{
+  width:40%;
+  margin-left: 0;
+  padding-left: 13px;
+  color:rgba(0, 0, 0, 0.55);
+  margin-left: auto;
+}
+/*more awesome heading+*/
+.awesome{
+  display: flex;
+  width:100%;
+  background-color: #F3F3F3;
+  padding: 100px 0;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.awesome-items{
+  margin:auto;
+  width:90%;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+}
+.awesome-items i{
+  font-size: 65px;
+  color: #1eb858;
+  padding:10px;
+}
+.awesome-items h1{
+  font-size: 20px;
+  font-weight: bold;
+}
+.awesome-items p{
+  font-size: 15px;
+  opacity: .7;
+}
+/*Background overlay*/
+.backOl{
+  width: 100%;
+  background:linear-gradient(to right,rgba(0,0,0,.2),rgba(0,0,0,.6)), url(http://www.free-css.com/assets/files/free-css-templates/preview/page228/iland/assets/images/image-bg.jpg) center center no-repeat;
+  background-size: cover;
+}
+.ol{
+  margin:auto;
+  padding:200px 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  z-index: 2;
+  color:#FFF;
+}
+.ol h1{
+  font-family: 'Roboto', sans-serif;
+  font-size: 30px;
+  text-align: center;
+}
+.ol button{
+  margin:auto;
+  width:100px;
+}
+/*meme review*/
+
+.review{
+  margin:auto;
+  margin-top: 150px;
+  width:60%;
+  max-width: 700px;
+  display: inline-block;
+  overflow: hidden;
+}
+.review-c{
+  display: flex;
+  flex-direction: row;
+  width:2000px;
+  height:400px;
+  background:#F3F3F3;
+  margin-left: 170px;
+  animation:review 10s infinite both;
+  outline-offset: 50px;
+}
+.single-r{
+  background:#f3f3f3;
+  width:700px;
+  height:300px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin:auto 100px;
+}
+.single-r img{
+  width:100px;
+  margin:auto;
+  border-radius: 50%;
+}
+.single-r p{
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 1px;
+  font-size: 12px;
+  opacity: .7;
+}
+.single-r h3{
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 1px;
+  font-size: 20px;
+  font-weight: lighter;
+}
+/*plan cards */
+.plan{
+  padding:50px 0;
+}
+.plan-cards{
+  display: flex;
+  margin:auto;
+  justify-content: space-around;
+  width: 95%;
+  flex-direction: row;
+}
+.card{
+  width:25%;
+  padding:50px 0px;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  border:none;
+  box-shadow: 0 0 80px 0 rgba(0,0,0,.1);
+}
+.card:hover{
+  box-shadow: 0 0 20px 0 rgba(0,0,0,.1);
+}
+.card i{
+  font-size: 65px;
+  color: #1eb858;
+  padding: 20px 0;
+}
+.card h3{
+  font-size: 1.3rem;
+  padding:10px 0;
+  font-weight: bold;
+}
+.card h2{
+  font-size: 1.7rem;
+  padding: 10px 0;
+  opacity:0.7;
+}
+.card p{
+  margin:auto;
+  font-size: 1rem;
+  padding: 10px 0;
+  opacity:0.7;
+  width:60%;
+}
+.card button{
+  margin:auto;
+  margin-top:20px;
+}
+.card-mid{
+  margin-top:-40px;
+  margin-bottom:40px;
+}
+/*new ol on top of the old one
++ input fixed*/
+.newOl{
+
+  background: linear-gradient(to right,rgba(0,0,0,.5),rgba(0,0,0,.9)),url(https://www.free-css.com/assets/files/free-css-templates/preview/page228/iland/assets/images/cta_bg.jpg) center center no-repeat;
+  background-size: cover;
+}
+.input-fix{
+
+}
+.input-fix input{
+  margin:0;
+  margin-right:4px;
+  border: none;
+  padding: 0px 20px;
+  background-color: #F9F9F9;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+
+}
+/*Contact */
+.contact{
+  display:flex;
+  flex-direction: row;
+  width:95%;
+  justify-content: space-around;
+}
+.contact-p{
+  font-size: .9rem;
+  opacity: .7;
+}
+.iLogo{
+  padding:20px 0;
+}
+.iWatch, .contactUS{
+  width:40%;
+  padding:50px 0px;
+}
+.contactUS h1{
+  font-size: 1.5rem;
+  padding:20px 0;
+
+}
+.copyrights{
+  color: #1eb858;
+  display: flex;
+  width:95%;
+  justify-content: flex-start;
+  margin:auto;
+}
+/*animation classess*/
+.landing-animation{
+  animation: fade-in 1s 0.3s both;
+}
+
+.animation-left{
+  animation:translate-left 1s both;
+  animation-delay: .4s;
+}
+.animation-right{
+  animation:translate-right 1s both;
+  animation-delay: .4s;
+}
+.animation-fade-down{
+  animation: fade-down 1s both;
+}
+/**/
+@keyframes example {
+    0% {transform:translate3d(0, 0, 0);}
+    10% {transform: translate3d(-250px, 0, 0);}
+    20% {transform: translate3d(-250px, 0, 0);}
+    30% {transform: translate3d(-500px, 0, 0);}
+    40% {transform: translate3d(-500px, 0, 0);}
+    50% {transform: translate3d(-750px, 0, 0);}
+    60% {transform: translate3d(-750px, 0, 0);}
+    70% {transform: translate3d(-500px, 0, 0);}
+    80% {transform: translate3d(-250px, 0, 0);}
+    90% {transform: translate3d(-250px, 0, 0);}
+    100% {transform: translate3d(0, 0, 0);}
+}
+@keyframes review {
+    0% {transform:translate3d(-30px, 0, 0);}
+    20% {transform: translate3d(-800px, 0, 0);}
+    40% {transform: translate3d(-800px, 0, 0);}
+    60% {transform: translate3d(-1500px, 0, 0);}
+    80% {transform: translate3d(-1500px, 0, 0);}
+    100% {transform: translate3d(-30px, 0, 0);}
+
+}
+@keyframes small-review {
+    0% {transform:translate3d(-30px, 0, 0);}
+    20% {transform: translate3d(-425px, 0, 0);}
+    40% {transform: translate3d(-425px, 0, 0);}
+    60% {transform: translate3d(-850px, 0, 0);}
+    80% {transform: translate3d(-850px, 0, 0);}
+    100% {transform: translate3d(-30px, 0, 0);}
+
+}
+@keyframes fade-in{
+  0% {
+       display: none;
+       opacity: 0;
+       transform: translate3d(0, 0, 0);
+   }
+
+   1% {
+       display: flex;
+       opacity: 0;
+       transform: translate3d(0, 50px, 0);
+   }
+
+   100% {
+       display: flex;
+       opacity: 1;
+       transform: translate3d(0, 0, 0);
+   }
+}
+@keyframes translate-left{
+  0%{
+    display:none;
+    opacity:0;
+    transform: translate3d(0,0,0);
+  }
+  1%{
+    display:none;
+    opacity:0;
+    transform: translate3d(50px,0,0);
+  }
+  100%{
+    display:block;
+    opacity:1;
+    transform: translate3d(0,0,0);
+  }
+}
+@keyframes translate-right{
+  0%{
+    display:none;
+    opacity:0;
+    transform: translate3d(0,0,0);
+  }
+  1%{
+    display:none;
+    opacity:0;
+    transform: translate3d(-50px,0,0);
+  }
+  100%{
+    display:block;
+    opacity:1;
+    transform: translate3d(0,0,0);
+  }
+}
+@keyframes fade-down{
+  0% {
+       display: none;
+       opacity: 0;
+       transform: translate3d(0, 0, 0);
+   }
+
+   1% {
+       display: flex;
+       opacity: 0;
+       transform: translate3d(0, -50px, 0);
+   }
+
+   100% {
+       display: flex;
+       opacity: 1;
+       transform: translate3d(0, 0, 0);
+   }
+}
+/*Responsivity all fixes regarding width and flex direction top to bottom easy to follow*/
+@media screen and (max-width: 760px) {
+
+  .landing{
+    flex-direction: column;
+
+  }
+  .landing .landingHeading{
+    width:95%;
+  }
+  .landing .landingHeading h1{
+    font-size: 32px;
+  }
+  .landing .landingImage{
+    width:80%;
+    margin:auto;
+  }
+  .slider, .slider-content, .items{
+    height:80px;
+  }
+  .heading{
+    margin:50px auto;
+  }
+  .heading h1{
+    font-size: 30px;
+  }
+  .heading p{
+    font-size: 12px;
+  }
+  .content{
+    flex-direction: column;
+  }
+  .layer1{
+    width:80%;
+    margin: auto;
+  }
+  .layer-img{
+    width:80%;
+  }
+  .feature-design{
+    flex-direction: column;
+  }
+  .left{
+    width:80%;
+    margin:auto;
+  }
+  .right{
+    width:80%;
+    margin:auto;
+  }
+  .right h1{
+    width:80%;
+    text-align: center;
+    font-size: 30px;
+  }
+  .right p{
+    width:80%;
+    font-size: 12px;
+  }
+  .right ul{
+    width:80%;
+    font-size: 12px;
+  }
+  .left1{
+    width:80%;
+    margin:auto;
+  }
+  .right1{
+    width:80%;
+    margin:auto;
+  }
+  .right1 h1{
+    width:80%;
+    text-align: center;
+    font-size: 30px;
+  }
+  .right1 p{
+    width:80%;
+    font-size: 12px;
+  }
+  .right1 ul{
+    width:80%;
+    font-size: 12px;
+  }
+  .awesome{
+    padding:30px 0;
+  }
+  .awesome-items{
+    flex-direction: column;
+  }
+  .layer-content{
+    margin:25px auto;
+  }
+  .ol{
+    padding:50px
+  }
+  .ol h1{
+    font-size: 20px;
+  }
+  .review{
+    width:80%;
+    margin-top:50px;
+  }
+  /*change animation to fit better change it later with js*/
+  .review-c{
+    margin-left: 0;
+    animation:small-review 10s ease infinite;
+  }
+  .single-r{
+    width:300px;
+    margin:auto 50px;
+  }
+  .plan-cards{
+    flex-direction: column;
+  }
+  .card{
+    width:80%;
+    margin:30px auto;
+  }
+  .input-fix{
+    flex-direction: column;
+  }
+  .input-fix input{
+    border-radius:5px;
+    margin:10px;
+    height:30px;
+  }
+  .input-fix button{
+    border-radius:5px;
+  }
+  .contactUS{
+    display: none;
+  }
+  .contact{
+    margin:auto;
+  }
+  .iWatch{
+    width:90%;
+    margin:auto;
+  }
+  body{
+    overflow-x: hidden;
+  }
+
+
+}

@@ -1,0 +1,32 @@
+stardet by creating html copy the viewport part for responsivity
+lets create nav first
+   *its just arr of links nothing special
+	*find bootstrap navbar
+	*navigation init state done 
+   *do the landing page
+	landing page image http://www.free-css.com/assets/files/free-css-templates/preview/page228/iland/assets/images/app-signup.png
+	*landing copied 
+	*add js for 100% height
+*add changing nav with js
+*figure out how does this slider shit works
+*simple transform 3d with js should do it
+*try with blocking y 
+*features page flaxbox layout
+*background overlay
+*sliders will be nightmare to make responsive/ only with %
+*make buy cards
+*news letter/ copy of a background overlay
+*contact is simple
+
+//patch review stage 2
+*add on scroll animations
+*just simple fade in
+*make it responsive
+//animations top to bottom
+*landing page img nad heading fade in
+*landing input and button width change
+*js for each element function if in view
+*they have some sassy things but js works
+//patch notes review stage2+ responsivity
+its responsive
+basic width-margin-column changes with flexbox
