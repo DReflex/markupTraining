@@ -1,15 +1,24 @@
-make this a proper readme file so i can post it on github
+#Product landing page
 
-lets describe web page
-it needs to be one of the templates
-copy link and screanshot of the template
-use only HTML CSS JS 
-use css grids
-im missing one thing that i realy wanted to stand out
-whan im finished post it to glitch and copy link to re4d me
-describe what page should look like in notes and whats all about in this page
 
-this is product landing page images and headings
-it has few animation mostly in text reapearens 
-2 bars few pictures nothing special
-its a long page and has a lot of details so lets start with basic html css 
+frontend design of a web page 
+
+-basic HTML & CSS markup
+-assisted with some js
+-made with bootstrap4 and flexbox
+-responsive 
+- layout copied from *[free-css](http://www.free-css.com/free-css-templates/page228/iland)
+-basic on scroll animations
+
+>this webpage is part of training for fullstack app
+>stage one is only markup / design idea
+>in future will be fragmented and polished in react app
+
+
+License
+----
+
+MIT
+
+
+**Free Software!**
